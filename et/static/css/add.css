@@ -1,0 +1,70 @@
+
+.container{
+    margin-top: 100px;
+}
+
+.transaction-history{
+    /* width: 500px; */
+    height: 420px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+#transaction-list{
+    margin-top: 2rem;
+}
+
+.transaction-list-item{
+    color: black;
+    font-size: 1.25rem;
+    margin: 20px;
+    border-radius: 30px;
+    background-color:#e2e8f0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    padding: 15px 0px
+}
+
+
+
+
+::marker {
+    content: '';
+    font-size: 1.2em;
+}
+
+.addExpense{
+    width: 8rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 0.05em;
+}
+
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+  width: 26px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+*::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
+}
+
+
+
+.transaction-history::-webkit-scrollbar {
+    display: none;
+}
+
+body, nav{
+    background-color: #f9fafb;
+}
+
+form{
+    font-size:20px;
+    font-weight: bold;
+}

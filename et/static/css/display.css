@@ -1,0 +1,41 @@
+.container{
+    margin-top: 20px;
+}
+
+#myChart{
+    margin-top: 40px;
+}
+
+.label_expense{
+    text-align: left;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.card-header , .card-title{
+    text-align: center;
+}
+
+.category-card{
+    background-color: #f0fdf4;    
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 1rem;
+    /* margin: 2rem; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    color: #16a34a;
+    border-radius: 0.5rem;
+    flex-direction: column;
+}
+
+.category-card-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.category-card:nth-child(odd){
+    margin-right: 20px;
+}
+

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<link rel="stylesheet" href="../static/css/month.css">
+<div class="container ">
+                                                                                              
+</div>
+<section>
+
+    <div class="row" style="text-align: center; margin: 0px auto ; width: 40rem;">
+        <div class="col">
+            <h3 class="mt-5">Expenses History</h3>
+            {% for x in obj %}
+            <div class="card shadow mb-2 rounded-pill expense-history-item">
+                <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6"> {{x}}</div>
+                    <div class="col-md-6"> Date: {{x.date}} </div>
+                    <div class="col-md-6"> Category: {{x.category}} </div>
+                    <div class="col-md-6"> Mode of Payment: {{x.pay_mode}} </div>
+                </div>
+                </div>
+            </div>
+            {% endfor %}
+ 
+        </div>
+    </div>
+</section>
+</div>
+
+
+
+
+
+
+</div>
+
+{% endblock %}
